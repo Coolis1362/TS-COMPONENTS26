@@ -1,0 +1,38 @@
+FILESYSTEM FOR TS-KERNEL 1.0.1a2 AND OPEN-SORCE:
+root # root folder
+|
+|- boot ----------------| # boot files
+|                       |- ts-distro-distro_name.py # python boot file # replace distro_name with actal distro name 
+|                       |- ts-distro-distro_name.exe # runnable boot file # replace distro_name with actal distro name 
+|                       |- ts-distro-distro_name.bat # command boot file # replace distro_name with actal distro name
+|                       |- shutdown_windows.py # Shuts Down Windows and TS-KERNEL
+|                       |- bootloader ---------------- boot --------------- boot.py # Bootloader For TS-KERNEL
+|                       |- ts-kernel-language ----------------| # Files For TS-KERNEL LANGUAGE
+|                                                              |
+|                                                              |
+|                                                              |
+|                                                              |- tskerlan.py
+|                                                              |- tskerlan.bat
+|                                                              |
+|                                                              |
+|                                                              |- grammer ----------------|
+|                                                                                         |
+|                                                                                         |
+|                                                                                         |
+|                                                                                         |- print ----------------|
+|                                                                                                                  |
+|                                                                                                                  |
+|                                                                                                                  |
+|                                                                                                                  |- print.py
+|
+|
+|- users ----------------| # users file
+|                        |- ADMIN_USER ------------------------------| # The Main User
+|                        |                                           |
+|                        |- USER ----------------| # Normal User     |- admin_user_settigns.tsuser # the settings for ADMIN_USER
+|                                                |
+|                                                | - user_settigns.tsuser # The settings for USER
+|
+|
+|
+|- ts-desktop

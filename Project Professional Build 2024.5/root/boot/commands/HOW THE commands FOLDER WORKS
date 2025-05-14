@@ -1,0 +1,7 @@
+The root/boot/commands Folder Contains The Commands newer then 'time --sys' command,
+
+Each File Here are the same name as the command name, and the file contains the command code just the spaces replaced with a _ if they have a space.
+
+Below This Text Is A Code Which Is In root/boot/bootloader/BOOT/boot.py
+
+print("Starting Commands From root/boot/commands Also In The Background")
